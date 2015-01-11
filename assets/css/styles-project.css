@@ -77,11 +77,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-size: 1.3em;
     left: 120px;
     line-height: 160%;
-    position: absolute;
-    text-decoration: none;
-    top: 200px;
-    width: 400px;
-    
 }
 
 .header-title{
@@ -120,7 +115,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition: color 0.3s ease 0s;
 }
 
-
+/*-----------------------
+----- Color Styles ------
+-------------------------*/
+.typo-color-transparent{
+    color:rgba(0, 0, 0, 0.5);
+}
 
 
 /*-----------------------
@@ -135,7 +135,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .add-padding-top {
     padding-top:120px;
 }
-
+.add-padding-bottom {
+    padding-bottom:140px;
+}
 
 .float-on-top{
 	position:absolute;
@@ -143,6 +145,16 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 /*-----------------------
 ----- Color Styles ------
 -------------------------*/
+
+.bg-color-dark-green{
+	background-color: rgba(23, 32, 22, 0.87);
+}
+
+.bg-color-dark-gray{
+    color:#ffffff;
+    background:#252525;
+}
+
 
 .bg-color-white{
     color:#797979;
