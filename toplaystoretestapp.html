@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="math.js" type="text/javascript"></script>
+<script type="text/javascript">
+function jump() {
+   var referrer = Math.floor((Math.random() * 1000000000) + 1);
+
+   var url = "https://play.google.com/store/apps/details?id=com.test.app.testinstallreferrer&referrer=" + referrer;
+   window.open(url,"_self");
+}
+window.onload = jump;
+</script>
+</head>
+<body>
+<h2>Redirecting to Play Store detail page of the test app with referrer.</h2>
+<button type="button" onclick="jump()">Force Redirect</button>
+
+</body>
+</html>
